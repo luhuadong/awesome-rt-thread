@@ -24,3 +24,5 @@
   - [docs-online](https://gitee.com/rtthread/docs-online) - RT-Thread documentation repository.
 - [youtube](https://www.youtube.com/@rt-thread) / [bilibili](https://space.bilibili.com/423462075/) - Tutorial videos and conference videos.
 - [medium](https://rt-thread.medium.com) / [linkedin](https://www.linkedin.com/company/rt-thread-iot-os/) / [twitter](https://twitter.com/rt_thread) / [facebook](https://www.facebook.com/profile.php?id=100066719216600) - Various social feeds.
+- ![](https://www.rt-thread.org/static/imgs/footer/foot_code.png) - WeChat official account QR code.
+
