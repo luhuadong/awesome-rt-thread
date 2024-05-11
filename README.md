@@ -50,3 +50,10 @@
   - [RT-Thread MicroPython](https://marketplace.visualstudio.com/items?itemName=RT-Thread.rt-thread-micropython) - The best MicroPython plug-in of vscode.
   - [RT-Thread Assistant](https://marketplace.visualstudio.com/items?itemName=rtthreadfans.rtthread-assistant) - RT-Thread Assistant for vscode.
 
+
+
+## Projects
+
+- [Firmament (FMT)](https://github.com/Firmament-Autopilot/FMT-Firmware) - Firmament Autopilot Embedded System.
+- [RTduino](https://github.com/RTduino/RTduino) - The Arduino ecosystem compatibility layer for RT-Thread.
+
