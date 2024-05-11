@@ -28,3 +28,25 @@
 - [medium](https://rt-thread.medium.com) / [linkedin](https://www.linkedin.com/company/rt-thread-iot-os/) / [twitter](https://twitter.com/rt_thread) / [facebook](https://www.facebook.com/profile.php?id=100066719216600) - Various social feeds.
 - ![](https://www.rt-thread.org/static/imgs/footer/foot_code.png) - WeChat official account QR code.
 
+
+
+## Tools
+
+### Build & Config
+
+- [RT-Thread Env Tool](https://www.rt-thread.io/download.html?download=Env)
+- [KConfig](https://www.kernel.org/doc/Documentation/kbuild/kconfig-language.txt)
+- [Scons](https://scons.org)
+
+
+### Editors & IDEs
+
+- RT-Thread Studio IDE
+- MDK KEIL
+- IAR
+- VS Code Extension
+  - [RT-Thread Studio](https://marketplace.visualstudio.com/items?itemName=RT-Thread.rt-thread-studio) - RT-Thread Studio for vscode.
+  - [RT-Thread Smart](https://marketplace.visualstudio.com/items?itemName=RT-Thread.rt-thread-smart) - An integrated development environment for RT-Thread Smart.
+  - [RT-Thread MicroPython](https://marketplace.visualstudio.com/items?itemName=RT-Thread.rt-thread-micropython) - The best MicroPython plug-in of vscode.
+  - [RT-Thread Assistant](https://marketplace.visualstudio.com/items?itemName=rtthreadfans.rtthread-assistant) - RT-Thread Assistant for vscode.
+
