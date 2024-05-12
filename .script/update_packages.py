@@ -14,8 +14,10 @@ package_desc = []
 url = []
 license = []
 
-package_list = ['iot', 'ai', 'language', 'misc', 'multimedia',
-                'peripherals', 'security', 'system', 'tools','signalprocess']
+package_dict = {'iot': 'IoT', 'ai': 'AI', 'language': 'Language', 'misc': 'Misc', 
+                'multimedia': 'Multimedia', 'peripherals': 'Peripherals', 'security': 'Security', 
+                'system': 'System', 'tools': 'Tools','signalprocess': 'Signal process'}
+
 ignore_dirs = ['.git', '.github', '.vscode', 'arduino']
 packages_dir = "~/.env/packages/packages"
 output_file = 'rtthread_packages.md'
@@ -47,10 +49,10 @@ def update_packages():
                         continue
                     
                     if group_name != curren_name:
-                        if curren_name in package_list:
+                        if curren_name in package_dict:
                             group_name = curren_name
                             file_object.write("\n")
-                            file_object.write("### " + group_name + "\n\n")
+                            file_object.write("### " + package_dict[group_name] + "\n\n")
                         elif curren_name == 'arduino':
                             print("Skip " + curren_name)
                             continue
