@@ -20,7 +20,7 @@ package_dict = {'iot': 'IoT', 'ai': 'AI', 'language': 'Language', 'misc': 'Misc'
 
 ignore_dirs = ['.git', '.github', '.vscode', 'arduino']
 packages_dir = "~/.env/packages/packages"
-output_file = 'rtthread_packages.md'
+# output_file = 'output.md'
 target_file = 'README.md'
 
 def delete_packages(file_path):
@@ -46,11 +46,11 @@ def delete_packages(file_path):
         if next_heading_index is not None:
             # 删除 `## Packages` 行到下一个二级标题之间的内容
             del lines[packages_index:next_heading_index]
-            print("start: {}, next: {}".format(packages_index, next_heading_index))
+            print("Start line {}, next line {}".format(packages_index, next_heading_index))
         else:
             # 删除 `## Packages` 行到文件末尾的所有内容
             del lines[packages_index:]
-            print("start: {}, end.".format(packages_index))
+            print("Start line {} to the end".format(packages_index))
 
         # 将修改后的内容写回文件
         with open(file_path, 'w') as file:
@@ -59,15 +59,22 @@ def delete_packages(file_path):
     return packages_index
         
 
-def update_packages():
+def update_packages(packages_src, output_file, insert_line):
     group_name = []
     curren_name = []
-    packages_root = os.path.expanduser(packages_dir)
+    packages_root = os.path.expanduser(packages_src)
     total_count = 0
     output_count = 0
+    new_contents = ["## Packages\n\n"]
 
-    with open(output_file, 'w', encoding='utf-8') as file_object:
-        file_object.write("## Packages\n\n")
+    # 检查文件是否存在，如果不存在，则创建文件
+    if not os.path.exists(output_file):
+        with open(output_file, 'w') as file:
+            pass
+
+    # 读取 packages 索引信息
+    with open(output_file, 'r') as file:
+        lines = file.readlines()
 
         for root, dirs, files in os.walk(packages_root):
             
@@ -88,11 +95,7 @@ def update_packages():
                     if group_name != curren_name:
                         if curren_name in package_dict:
                             group_name = curren_name
-                            file_object.write("\n")
-                            file_object.write("### " + package_dict[group_name] + "\n\n")
-                        elif curren_name == 'arduino':
-                            print("Skip " + curren_name)
-                            continue
+                            new_contents.append("\n### " + package_dict[group_name] + "\n\n")
 
                     package_name = os.path.basename(os.path.join(root))
                     json_path = os.path.join(root, f)
@@ -121,12 +124,18 @@ def update_packages():
                             if dict[0] == "repository":
                                 url = dict[1]
 
-                    file_object.write("- [" + package_name + "](" + url + ") - " + package_desc + " `" + license + "`\n")
+                    new_contents.append("- [" + package_name + "](" + url + ") - " + package_desc + " `" + license + "`\n")
                     output_count = output_count + 1
 
+        # 文件回写
+        lines.insert(insert_line, ''.join(new_contents))
+
+        with open(output_file, 'w', encoding='utf-8') as file_object:
+            file_object.writelines(lines)
+        
         print("Update {} packages, total {}".format(output_count, total_count))
 
 
 if __name__ == '__main__':
     line = delete_packages(target_file)
-    update_packages()
+    update_packages(packages_dir, target_file, line)
