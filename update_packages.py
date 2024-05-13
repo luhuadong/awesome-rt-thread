@@ -115,6 +115,11 @@ def update_packages(packages_src, output_file, insert_line):
 
                                 package_desc = package_desc.lstrip()
                                 package_desc = package_desc.strip()
+
+                                # package_desc = package_desc.capitalize()
+                                if package_desc[0].islower():
+                                    package_desc = package_desc[0].upper() + package_desc[1:]
+
                                 if not package_desc.endswith('.'):
                                     package_desc += '.'
 
