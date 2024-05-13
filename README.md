@@ -45,8 +45,8 @@
   - [rt-thread](https://gitee.com/rtthread/rt-thread) - RT-Thread Gitee repository.
   - [docs-online](https://gitee.com/rtthread/docs-online) - RT-Thread documentation repository.
 - [RT-Thread-Mirror](https://gitee.com/RT-Thread-Mirror) - RT-Thread packages mirror in gitee.com.
-- [youtube](https://www.youtube.com/@rt-thread) / [bilibili](https://space.bilibili.com/423462075/) - Tutorial videos and conference videos.
-- [medium](https://rt-thread.medium.com) / [linkedin](https://www.linkedin.com/company/rt-thread-iot-os/) / [twitter](https://twitter.com/rt_thread) / [facebook](https://www.facebook.com/profile.php?id=100066719216600) - Various social feeds.
+- [YouTube](https://www.youtube.com/@rt-thread) / [Bilibili](https://space.bilibili.com/423462075/) - Tutorial videos and conference videos.
+- [Medium](https://rt-thread.medium.com) / [Linkedin](https://www.linkedin.com/company/rt-thread-iot-os/) / [Twitter](https://twitter.com/rt_thread) / [Facebook](https://www.facebook.com/profile.php?id=100066719216600) - Various social feeds.
 - ![](https://www.rt-thread.org/static/imgs/footer/foot_code.png) - WeChat official account QR code.
 
 
