@@ -541,8 +541,7 @@
 - [CMSIS-DSP](https://github.com/RT-Thread-packages/CMSIS-DSP) - CMSIS-DSP embedded compute library for Cortex-M and Cortex-A.
 - [kissfft](https://github.com/mborgerding/kissfft) - A Fast Fourier Transform (FFT) library that tries to Keep it Simple, Stupid.
 - [ukal](https://github.com/wuhanstudio/ukal) - Kalman filter based on ulapack.
-- [fire_pid_curve](https://github.com/LONGZR007/fire_pid_curve.git) - .
-- [.vscode](https://github.com/LONGZR007/fire_pid_curve.git) - .
+- [fire_pid_curve](https://github.com/LONGZR007/fire_pid_curve.git) - Fire PID communication protocol debugging assistant.
 
 ### Tools
 
