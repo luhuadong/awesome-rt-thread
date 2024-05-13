@@ -4,25 +4,23 @@
 
 ## Contents
 
-- [Awesome RT-Thread ](#awesome-rt-thread-)
-  - [Contents](#contents)
-  - [Official Resources](#official-resources)
-  - [Tools](#tools)
-    - [Build \& Config](#build--config)
-    - [Editors \& IDEs](#editors--ides)
-  - [Hardwares](#hardwares)
-  - [Projects](#projects)
-  - [Packages](#packages)
-    - [IoT](#iot)
-    - [Misc](#misc)
-    - [Peripherals](#peripherals)
-    - [Multimedia](#multimedia)
-    - [AI](#ai)
-    - [Security](#security)
-    - [System](#system)
-    - [Language](#language)
-    - [Signal process](#signal-process)
-    - [Tools](#tools-1)
+- [Official Resources](#official-resources)
+- [Tools](#tools)
+  - [Build \& Config](#build--config)
+  - [Editors \& IDEs](#editors--ides)
+- [Hardwares](#hardwares)
+- [Projects](#projects)
+- [Packages](#packages)
+  - [IoT](#iot)
+  - [Misc](#misc)
+  - [Peripherals](#peripherals)
+  - [Multimedia](#multimedia)
+  - [AI](#ai)
+  - [Security](#security)
+  - [System](#system)
+  - [Language](#language)
+  - [Signal process](#signal-process)
+  - [Tools](#tools-1)
 
 
 ## Official Resources
@@ -549,7 +547,7 @@
 
 - [SEGGER_RTT](https://github.com/supperthomas/RTTHREAD_SEGGER_TOOL.git) - Use the SEGGER RTT instead of console.
 - [vconsole](https://github.com/enkiller/vconsole) - A virtual console package.
-- [rtt_auto_exe_cmd](https://github.com/supperthomas/RTT_AUTO_EXE_CMD.git) - [AUTO]Exe the rtt cmd auto for ci.
+- [rtt_auto_exe_cmd](https://github.com/supperthomas/RTT_AUTO_EXE_CMD.git) - Execute the rt-thread cmd auto for ci.
 - [logmgr](https://github.com/RT-Thread-packages/logmgr.git) - A log management system for rt-thread.
 - [EasyFlash](https://github.com/armink-rtt-pkgs/EasyFlash) - Lightweight embedded flash memory library. Make flash to be a small KV database.
 - [cBox](https://github.com/enkiller/cbox) - C language box.
