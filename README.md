@@ -4,23 +4,25 @@
 
 ## Contents
 
-- [Official Resources](#official-resources)
-- [Tools](#tools)
-  - [Build \& Config](#build--config)
-  - [Editors \& IDEs](#editors--ides)
-- [Hardwares](#hardwares)
-- [Projects](#projects)
-- [Packages](#packages)
-  - [IoT](#iot)
-  - [Misc](#misc)
-  - [Peripherals](#peripherals)
-  - [Multimedia](#multimedia)
-  - [AI](#ai)
-  - [Security](#security)
-  - [System](#system)
-  - [Language](#language)
-  - [Signal process](#signal-process)
-  - [Tools](#tools-1)
+- [Awesome RT-Thread ](#awesome-rt-thread-)
+  - [Contents](#contents)
+  - [Official Resources](#official-resources)
+  - [Tools](#tools)
+    - [Build \& Config](#build--config)
+    - [Editors \& IDEs](#editors--ides)
+  - [Hardwares](#hardwares)
+  - [Projects](#projects)
+  - [Packages](#packages)
+    - [IoT](#iot)
+    - [Misc](#misc)
+    - [Peripherals](#peripherals)
+    - [Multimedia](#multimedia)
+    - [AI](#ai)
+    - [Security](#security)
+    - [System](#system)
+    - [Language](#language)
+    - [Signal process](#signal-process)
+    - [Tools](#tools-1)
 
 
 ## Official Resources
@@ -107,7 +109,7 @@
 - [atsrv_socket](https://github.com/RT-Thread-packages/atsrv_socket) - AT server with socket commands.
 - [bc28_mqtt](https://github.com/luhuadong/rtt-bc28-mqtt) - Connect to Aliyun with Quectel BC28 model.
 - [mongoose](https://github.com/armink-rtt-pkgs/mongoose) - Embedded Web Server Library for RT-Thread package.
-- [lora_pkt_fwd](https://github.com/Forest-Rain/lora-pkt-fwd) - Lora_pkt_fwd is lora(wan) packet forward based on Semtech GWMP.
+- [lora_pkt_fwd](https://github.com/Forest-Rain/lora-pkt-fwd) - A LoRa(wan) packet forward based on Semtech GWMP.
 - [agile_modbus](https://github.com/loogg/agile_modbus) - Lightweight modbus protocol stack.
 - [ota_downloader](https://github.com/RT-Thread-packages/ota_downloader) - The firmware downloader bases on RT-Thread OTA component.
 - [matter-adaptation-layer](https://github.com/kurisaW/MATTER-Adaptation_Layer) - Matter protocol stack porting on RT-Thread based on guidance from Connectivity Standards Alliance (CSA) Working Group.
@@ -138,7 +140,7 @@
 - [cmux](https://github.com/RT-Thread-packages/cmux) - Connection multiplexing protocol for RT-Thread, support GSM0710 .etc.
 - [rt-link_hw](https://github.com/RT-Thread-packages/rt-link_hw) - The underlying communication port adaptation layer of the rt-link component.
 - [RyanW5500](https://github.com/Ryan-CW-Code/RyanW5500) - W5500 BSD socket implementation.
-- [lora_pkt_sniffer](https://github.com/Forest-Rain/lora-pkt-sniffer) - Lora_pkt_sniffer is a sniffer tool of lora(wan) packet.
+- [lora_pkt_sniffer](https://github.com/Forest-Rain/lora-pkt-sniffer) - A sniffer tool of LoRa(wan) packet.
 - [WebTerminal](https://github.com/armink-rtt-pkgs/WebTerminal) - Terminal runs in a Web browser.
 - [mymqtt](https://github.com/hichard/mymqtt) - Eclipse Paho MQTT C/C++ client for Embedded platforms.A new efficient and stable way to realize for rt-thread.
 - [capnp](https://github.com/wuhanstudio/capnp) - Cap'n Proto serialization/RPC system which is faster than protobuf.
@@ -215,7 +217,7 @@
 - [get_irq_priority](https://github.com/wdfk-prog/rt-thread-get_irq_priority) - Get irq priority for Cortex®-M.
 - [ralarm](https://github.com/RiceChen0/ralarm) - An alarm clock component that does not rely on hardware and can be infinitely expanded.
 - [cal](https://github.com/mysterywolf/cal) - A terminal calendar.
-- [cmatrix](https://github.com/wuhanstudio/cmatrix) - 电影《黑客帝国》中的字符雨.
+- [cmatrix](https://github.com/wuhanstudio/cmatrix) - Character Rain from the movie "The Matrix".
 - [snake](https://github.com/mysterywolf/snake) - A remake of the old nokia game.
 - [TinySquare](https://github.com/AlgoOy/TinySquare) - A lightweight square game engine running on Cortex-M.
 - [sl](https://github.com/wuhanstudio/sl) - Steam locomotive runs across your terminal when you type 'sl' as you meant to type 'ls'.
@@ -241,7 +243,7 @@
 - [rda58xx](https://github.com/apeng2012/rda58xx) - RDA5820 single-chip broadcase FM transceiver driver.
 - [bluetrum_sdk](https://github.com/BLUETRUM/bluetrum_sdk) - Bluetrum sdk.
 - [nrfx](https://github.com/xckhmf/nrfx) - Standalone set of drivers for peripherals present in Nordic Semiconductor's SoCs.
-- [embARC_bsp](https://github.com/foss-for-synopsys-dwc-arc-processors/embarc_bsp) - EmbARC_bsp(Synopsys ARC Processer Board Support Package Software ) package.
+- [embARC_bsp](https://github.com/foss-for-synopsys-dwc-arc-processors/embarc_bsp) - Synopsys ARC Processer Board Support Package (BSP) software package.
 - [nuclei_sdk](https://github.com/Nuclei-Software/nuclei-sdk) - Nuclei RISC-V Software Development Kit.
 - [raspberrypi-pico-sdk](https://github.com/RT-Thread-packages/raspberrypi-pico-sdk) - Raspberry Pi Pico SDK.
 - [nrf5x_sdk](https://github.com/supperthomas/nrf5x_sdk) - Software development kit for the nRF52 Series and nRF51 Series SoCs.
@@ -344,7 +346,7 @@
 - [ws2812b](https://github.com/maplerian/rt_ws2812b) - Ws2812b software driver package for RT-Thread is driven by SPI+DMA.
 - [beep](https://github.com/Sunwancn/rtt-pkgs-beep) - Control the buzzer to make beeps at different intervals.
 - [libnfc](https://github.com/wuhanstudio/libnfc) - Platform independent Near Field Communication (NFC) library.
-- [realtek_ameba](https://github.com/flyingcys/realtek_ameba) - Realtek_ameba package on RT-Thread.
+- [realtek_ameba](https://github.com/flyingcys/realtek_ameba) - Realtek ameba package on RT-Thread.
 - [kobuki](https://github.com/wuhanstudio/kobuki) - Kobuki Robot serial communication driver.
 - [infrared](https://github.com/RT-Thread-packages/infrared_framework) - Infrared framework based on rt-thread's pin,pwm and hwtimer driver.
 - [pca9685](https://github.com/greedyhao/pca9685) - I2C-bus controlled 16-channel PWM controller.
@@ -355,7 +357,7 @@
 - [ili9341](https://github.com/Rbb666/ILI9341.git) - TFT-LCD ILI9341 SPI screen driver software package.
 - [lora_gw_driver_lib](https://github.com/Forest-Rain/lora-gw-driver-lib) - Lora-gw-driver-lib is lora gateway chip(SX130x) driver binary libraries.
 - [wm_libraries](https://github.com/WinnerMicro/rtpkg-wm_libraries) - A library package for WinnerMicro devices.
-- [lora_modem_driver](https://github.com/Forest-Rain/lora-modem-driver) - Lora_modem_driver is a serial driver of lora//lorawan modem.
+- [lora_modem_driver](https://github.com/Forest-Rain/lora-modem-driver) - A serial driver of LoRa(wan) modem.
 - [xpt2046](https://github.com/LeeChunHei/xpt2046_touch_rtt) - Xpt2046 touch driver package.
 - [ft6236](https://github.com/RT-Thread-packages/ft6236) - This is the driver package of FT6236 touch chip.
 - [gt911](https://github.com/RiceChen0/gt911) - Gt911 drivers for RT-Thread.
