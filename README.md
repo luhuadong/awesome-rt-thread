@@ -40,6 +40,7 @@
 - [RT-Thread-Studio GitHub](https://github.com/RT-Thread-Studio) - RT-Thread-Studio GitHub organization.
   - [sdk-bsp-stm32l475-atk-pandora](https://github.com/RT-Thread-Studio/sdk-bsp-stm32l475-atk-pandora) - SDK for the Pandora development board (IoT Board).
   - [sdk-bsp-stm32h750-realthread-artpi](https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi) - SDK for the ART-Pi development board.
+  - [sdk-bsp-ra6m3-hmi-board](https://github.com/RT-Thread-Studio/sdk-bsp-ra6m3-hmi-board) - SDK for the HMI-Board development board.
   - [sdk-bsp-ra8d1-vision-board](https://github.com/RT-Thread-Studio/sdk-bsp-ra8d1-vision-board) - SDK for the Vision-Board development board.
 - [Gitee](https://gitee.com/rtthread) - RT-Thread Gitee organization.
   - [rt-thread](https://gitee.com/rtthread/rt-thread) - RT-Thread Gitee repository.
@@ -75,10 +76,10 @@
 ## Hardwares
 
 - [Pandora IoT Board](https://github.com/RT-Thread/IoT_Board) - An IoT development board based on STM32L4 (Cortex-M4).
-- [ART-Pi](https://github.com/RT-Thread-Studio/sdk-bsp-stm32h750-realthread-artpi) - A DIY open source hardware based on STM32H750 designed by the RT-Thread team.
+- [ART-Pi](https://art-pi.github.io/website/) - A DIY open source hardware based on STM32H750 designed by the RT-Thread team.
 - [Spark (星火1号)](https://github.com/RT-Thread-Studio/sdk-bsp-stm32f407-spark) - An RTOS development learning board based on STM32F407 specially designed for engineers and college students.
-- [HMI Board](https://github.com/RT-Thread-Studio/sdk-bsp-ra6m3-hmi-board) - A high-cost-performance graphic evaluation kit brought to you by RT-Thread in collaboration with Renesas and LVGL.
-- [Vision Board](https://github.com/RT-Thread-Studio/sdk-bsp-ra8d1-vision-board) - A development board with camera based on the Renesas RA8D1 (Cortex-M85).
+- [HMI Board](https://club.rt-thread.org/ask/tag/1a7377d47be92f4e.html) - A high-cost-performance graphic evaluation kit brought to you by RT-Thread in collaboration with Renesas and LVGL.
+- [Vision Board](https://club.rt-thread.org/ask/tag/75c03d50eabf688a.html) - A development board with camera based on the Renesas RA8D1 (Cortex-M85).
 
 
 
