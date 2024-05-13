@@ -288,13 +288,13 @@
 - [qmp6989](https://github.com/kylepengchn/qmp6989.git) - High accuracy and small size barometric pressure sensor,support: barometer, temperature.
 - [PAJ7620](https://github.com/orange2348/paj7620) - Gesture sensor PAJ7620 driver package.
 - [hmc5883](https://github.com/gmyFighting/hmc5883) - Bmi088 software package.
-- [mlx90397](https://github.com/lgnq/mlx90397) - The MLX90397 is the newest addition to the Melexis position sensing portfolio, bringing the highest flexibility in the portfolio’s smallest assembly. Complementing this, the magnetic fi eld sensor is designed for micropower applications, with programmable duty cycles in the range of 0.1% to 100%.
+- [mlx90397](https://github.com/lgnq/mlx90397) - The MLX90397 is the newest addition to the Melexis position sensing portfolio, bringing the highest flexibility in the portfolio's smallest assembly. Complementing this, the magnetic fi eld sensor is designed for micropower applications, with programmable duty cycles in the range of 0.1% to 100%.
 - [bme280](https://github.com/RT-Thread-packages/bme280) - Barometric, humidity.
 - [hts221](https://github.com/RT-Thread-packages/hts221) - Temperature, humidity.
 - [ina226](https://github.com/xupenghu/ina226.git) - Ina226 software package.
 - [gp2y10](https://github.com/luhuadong/rtt-gp2y10) - Dust sensor by Sharp for detect air quality.
 - [gy271](https://github.com/jch12138/gy271) - A package of gy271 driver library.
-- [mlx90393](https://github.com/lgnq/mlx90393) - The MLX90393 is the newest addition to the Melexis position sensing portfolio, bringing the highest fl exibility in the portfolio’s smallest assembly. Complementing this, the magnetic fi eld sensor is designed for micropower applications, with programmable duty cycles in the range of 0.1% to 100%.
+- [mlx90393](https://github.com/lgnq/mlx90393) - The MLX90393 is the newest addition to the Melexis position sensing portfolio, bringing the highest fl exibility in the portfolio's smallest assembly. Complementing this, the magnetic fi eld sensor is designed for micropower applications, with programmable duty cycles in the range of 0.1% to 100%.
 - [hdc1000](https://github.com/Forest-Rain/hdc1000) - Hdc1000 sensor driver base on RT-Thread sensor frame.
 - [bmi160_bmx160](https://github.com/RT-Thread-packages/bmi160_bmx160) - The device driver package for BMX160 and BMI160.
 - [max30102](https://github.com/Jackistang/max30102_rtt) - Heart rate and oxygen saturation measure.
@@ -337,7 +337,7 @@
 - [hshcal001](https://github.com/lucaslsh/hshcal001.git) - Temperature, humidity.
 - [bma400](https://github.com/RT-Thread-packages/bma400) - Accelerometer, step.
 - [tsl4531](https://github.com/JellyYe/tsl4531pkgs.git) - TSL4531 sensor driver package ,support lux.
-- [mlx90392](https://github.com/lgnq/mlx90392) - The MLX90392 is the newest addition to the Melexis position sensing portfolio, bringing the highest fl exibility in the portfolio’s smallest assembly. Complementing this, the magnetic fi eld sensor is designed for micropower applications, with programmable duty cycles in the range of 0.1% to 100%.
+- [mlx90392](https://github.com/lgnq/mlx90392) - The MLX90392 is the newest addition to the Melexis position sensing portfolio, bringing the highest fl exibility in the portfolio's smallest assembly. Complementing this, the magnetic fi eld sensor is designed for micropower applications, with programmable duty cycles in the range of 0.1% to 100%.
 - [sgp30](https://github.com/luhuadong/rtt-sgp30) - Air sensor by Sensirion for detect TVOC and CO2.
 - [lps22hb](https://github.com/RT-Thread-packages/lps22hb) - This is the LPS22HB sensor driver package.
 - [vsensor](https://github.com/RT-Thread-packages/vsensor) - Virtual sensor device.
