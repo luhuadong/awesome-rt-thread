@@ -482,7 +482,6 @@
 - [CMSIS_RTOS2](https://github.com/RT-Thread-packages/CMSIS_RTOS2) - CMSIS-RTOS2 wrapper for RT-Thread.
 - [CMSIS_5](https://github.com/ARM-software/CMSIS_5) - CMSIS-5 Development.
 - [CMSIS_RTOS1](https://github.com/RT-Thread-packages/CMSIS_RTOS1) - CMSIS-RTOS1 wrapper for RT-Thread.
-- [CMSIS-DSP](https://github.com/RT-Thread-packages/CMSIS-DSP) - A comprehensive DSP library for Cortex-M processor-based devices.
 - [CMSIS_5_AUX](https://github.com/RT-Thread-packages/CMSIS_5_AUX) - CMSIS-5 Auxiliary Package.
 - [CMSIS-Core](https://github.com/RT-Thread-packages/CMSIS-Core) - Standardized API for the Cortex-A/M processor core and peripherals.
 - [TaskMsgBus](https://github.com/slyant/TaskMsgBus.git) - For sending and receiving text/object messages between threads based on RT-Thread.
