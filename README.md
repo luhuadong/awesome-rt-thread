@@ -577,7 +577,7 @@
 - [gps_rmc](https://github.com/maplerian/gps_rmc) - Used to parse $XXRMC type data of GPS module.
 - [gan_zhi](https://github.com/XYX12306/gan_zhi.git) - A tool package to get tiangan and dizhi informations according to the date and time.
 - [SystemView](https://github.com/RT-Thread-packages/SEGGER_SystemView) - SEGGER SystemView.
-- [CoreMark](https://github.com/wuhanstudio/coremark) - EEMBC’s CoreMark® is a benchmark that measures the performance of microcontrollers (MCUs) and central processing units (CPUs) used in embedded systems.
+- [CoreMark](https://github.com/wuhanstudio/coremark) - EEMBC's CoreMark® is a benchmark that measures the performance of microcontrollers (MCUs) and central processing units (CPUs) used in embedded systems.
 - [hash-match](https://github.com/smartmx/hash-match) - Using hashmap on MCUs.
 - [fdt](https://github.com/RT-Thread-packages/fdt) - Device Tree package in RT-Thread.
 - [RT_Trace](https://github.com/Ruboom/RT_Trace) - Using J-Link realizes event monitoring.
