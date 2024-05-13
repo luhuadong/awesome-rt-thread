@@ -124,7 +124,8 @@ def update_packages(packages_src, output_file, insert_line):
                             if dict[0] == "repository":
                                 url = dict[1]
 
-                    new_contents.append("- [" + package_name + "](" + url + ") - " + package_desc + " `" + license + "`\n")
+                    # new_contents.append("- [" + package_name + "](" + url + ") - " + package_desc + " `" + license + "`\n")
+                    new_contents.append("- [" + package_name + "](" + url + ") - " + package_desc + "\n")
                     output_count = output_count + 1
 
         # 文件回写
