@@ -150,7 +150,7 @@
 - [wol](https://github.com/WKJay/wol) - Wake on lan package for rt-thread.
 - [lwip](https://github.com/RT-Thread-packages/lwip) - LwIP for RT-Thread (upstream).
 - [netutils](https://github.com/RT-Thread-packages/netutils) - Networking utilities for RT-Thread.
-- [wiznet](https://github.com/RT-Thread-packages/wiznet) - WIZnet TCP/IP chips (such as W5500/W5100..) SAL framework implement.
+- [wiznet](https://github.com/RT-Thread-packages/wiznet) - WIZnet TCP/IP chips (such as W5500/W5100) SAL framework implement.
 - [zephyr_polling](https://github.com/bobwenstudy/RTT_PACKAGE_zephyr_polling) - Bluetooth BLE Stack.
 - [kawaii-mqtt](https://github.com/jiejieTop/kawaii-mqtt) - A kawaii mqtt client based on the socket API, has a very simple api interface, support QoS2、mbedtls.
 - [libcurl2rtt](https://github.com/liu2guang/libcurl2rtt) - The curl library ported on the RT-Thread platform.
